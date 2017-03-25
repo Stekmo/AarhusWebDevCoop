@@ -396,6 +396,15 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\MacroPartials\ContactForm.cshtml" />
     <Content Include="Views\MemberSection.cshtml" />
+    <Content Include="Views\ContactPage.cshtml" />
+    <Content Include="Views\About.cshtml" />
+    <Content Include="Views\LoginArea.cshtml" />
+    <Content Include="Views\Sitemap.cshtml" />
+    <Content Include="Views\Message.cshtml" />
+    <Content Include="Views\MacroPartials\Sitemap.cshtml" />
+    <Content Include="Views\MacroPartials\newProjects.cshtml" />
+    <Content Include="Views\MacroPartials\news.cshtml" />
+    <Content Include="Views\Partials\LoginArea.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
