@@ -1,0 +1,26 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.ProjectItem>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+@{
+	/* Convert the radio buttons id to their string */
+	String[] statusList = @Umbraco.Field("projectStatus").ToString().Split(',');
+	string statusString = string.Join(", ", from status in statusList
+	select umbraco.library.GetPreValueAsString(Convert.ToInt32(status)));
+}
+
+
+<div class="container">
+<h3>@Umbraco.Field("projectTitle")</h3>
+	
+	<h4>Description: </h4>@Umbraco.Field("projectDescription")<br />
+	
+		<h4>Status: </h4> @statusString<br /><br />
+	
+		<h4>Author: </h4>@Umbraco.Field("creatorName")<br /><br />
+			
+			<h4>Created on: </h4>@Umbraco.Field("createDate")<br /><br />
+				
+	</div>

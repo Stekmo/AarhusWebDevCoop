@@ -1,0 +1,58 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@{
+    var selection = CurrentPage.Site().Children.Where("Visible");
+    var allProjects = Umbraco.Content(1088).Children.Where("Visible").OrderBy("CreateDate desc");
+    var completedProjects = Umbraco.Content(1088).Children.Where("Visible").Where("projectStatus == @0", 11).OrderBy("CreateDate desc");
+    var root = CurrentPage.AncestorOrSelf(1);
+}
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="@(CurrentPage.Name == root.Name ? "active" : null)"><a href="@root.Url">@root.Name</a></li>
+
+                @foreach (var item in selection)
+                {
+                    <li class="@(item.Name == Model.Content.Name ? "active" : null)"><a href="@item.Url">@item.Name</a></li>
+                }
+                <li class="dropdown">
+                    <a href="/projects" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true">Projects<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+
+                        @* If user is not logged in *@
+                        @if (!Members.GetCurrentLoginStatus().IsLoggedIn)
+                        {
+
+                            @* Display completed projects only *@
+                            foreach (var item in completedProjects)
+                            {
+                                <li class="@(item.Name == Model.Content.Name ? "active" : null)"><a href="@item.Url">@item.Name</a></li>
+                            }
+                        } else
+                        {
+                            @* Display all projects *@
+                            foreach (var item in allProjects)
+                            {
+                                <li class="@(item.Name == Model.Content.Name ? "active" : null)"><a href="@item.Url">@item.Name</a></li>
+                            }
+                        }
+
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>

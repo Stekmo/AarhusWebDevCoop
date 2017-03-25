@@ -1,0 +1,320 @@
+﻿ 2017-03-08 09:10:53,849 [P4512/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.9 application starting on DESKTOP-C826T1M
+ 2017-03-08 09:10:53,875 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-08 09:10:53,888 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 12ms)
+ 2017-03-08 09:10:53,924 [P4512/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-08 09:10:53,924 [P4512/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-08 09:10:53,928 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-08 09:10:54,206 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 277ms)
+ 2017-03-08 09:10:54,376 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-08 09:10:54,377 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-03-08 09:10:54,377 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-08 09:10:54,378 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2017-03-08 09:10:54,388 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-08 09:10:54,409 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 22ms)
+ 2017-03-08 09:10:54,409 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-08 09:10:54,414 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2017-03-08 09:10:54,606 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-08 09:10:54,606 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-03-08 09:10:54,607 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-08 09:10:54,607 [P4512/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-03-08 09:10:55,517 [P4512/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-08 09:10:55,843 [P4512/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-08 09:10:56,090 [P4512/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-08 09:10:56,163 [P4512/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-08 09:10:56,194 [P4512/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2435ms)
+ 2017-03-08 09:10:59,112 [P4512/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:49749/umbraco (UmbracoModule request)
+ 2017-03-08 09:10:59,497 [P4512/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2017-03-08 09:10:59,505 [P4512/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-08 09:10:59,960 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-08 09:10:59,961 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2017-03-08 09:11:00,578 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-08 09:11:00,579 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-03-08 09:11:00,713 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-03-08 09:11:00,714 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 0ms)
+ 2017-03-08 09:11:36,568 [P4512/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username stephankmo@gmail.com from IP address ::1
+ 2017-03-08 09:11:36,568 [P4512/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: stephankmo@gmail.com logged in from IP address ::1
+ 2017-03-08 09:11:36,713 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-08 09:11:36,725 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 11ms)
+ 2017-03-08 09:11:36,786 [P4512/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-03-08 09:11:36,799 [P4512/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 12ms)
+ 2017-03-08 09:11:36,928 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-08 09:11:36,928 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-08 09:11:36,930 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-08 09:11:36,945 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 15ms)
+ 2017-03-08 09:11:37,164 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-08 09:11:37,177 [P4512/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 13ms)
+ 2017-03-08 09:11:59,572 [P4512/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-07 09:11:59
+ 2017-03-08 09:28:48,331 [P4512/D2/T130] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 09:28:48,349 [P4512/D2/T130] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 09:28:48,349 [P4512/D2/T125] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 09:28:48,355 [P4512/D2/T125] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 09:28:48,355 [P4512/D2/T130] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 09:28:48,361 [P4512/D2/T130] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 09:29:04,978 [P4512/D2/T107] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-03-08 09:29:04,979 [P4512/D2/T107] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-03-08 09:29:25,482 [P4512/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 09:29:25,487 [P4512/D2/T100] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 09:29:25,489 [P4512/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 09:29:25,493 [P4512/D2/T100] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 09:29:25,494 [P4512/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 09:29:25,498 [P4512/D2/T100] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 09:32:05,512 [P4512/D2/T78] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-08 09:32:05,512 [P4512/D2/T78] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-08 09:50:36,122 [P4512/D2/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-03-08 09:50:36,122 [P4512/D2/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-03-08 10:08:29,026 [P4512/D2/T62] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: stephankmo@gmail.com, IP Address: ::1
+ 2017-03-08 10:37:03,734 [P4512/D2/T53] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username stephankmo@gmail.com from IP address ::1
+ 2017-03-08 10:37:03,734 [P4512/D2/T53] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: stephankmo@gmail.com logged in from IP address ::1
+ 2017-03-08 10:37:03,755 [P4512/D2/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-08 10:37:03,755 [P4512/D2/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-08 10:37:03,975 [P4512/D2/T58] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-03-08 10:37:03,975 [P4512/D2/T58] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-03-08 10:41:28,868 [P4512/D2/T56] ERROR umbraco.cms.presentation.user.EditUser - Exception
+System.Configuration.Provider.ProviderException: A member with the email 'stephankmo@gmail.com' already exists
+   at Umbraco.Web.Security.Providers.UmbracoMembershipProvider`2.UpdateUser(MembershipUser user)
+   at Umbraco.Web.Security.MembershipHelper.UpdateMember(MembershipUser member, MembershipProvider provider, String email, Nullable`1 isApproved, Nullable`1 lastLoginDate, Nullable`1 lastActivityDate, String comment)
+   at umbraco.cms.presentation.user.EditUser.UpdateMembershipProvider(MembershipUser membershipUser)
+   at umbraco.cms.presentation.user.EditUser.SaveUser_Click(Object sender, EventArgs e)
+ 2017-03-08 10:45:20,074 [P4512/D2/T65] INFO  Umbraco.Web.Editors.AuthenticationController - User stephankmo@gmail.com from IP address ::1 has logged out
+ 2017-03-08 10:45:28,797 [P4512/D2/T58] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username steve.stephan@hotmail.com from IP address ::1
+ 2017-03-08 10:45:40,120 [P4512/D2/T73] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Jane Wilfred from IP address ::1
+ 2017-03-08 10:45:40,120 [P4512/D2/T73] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: jane wilfred logged in from IP address ::1
+ 2017-03-08 10:45:54,156 [P4512/D2/T50] INFO  Umbraco.Web.Editors.AuthenticationController - User Jane Wilfred from IP address ::1 has logged out
+ 2017-03-08 10:45:55,749 [P4512/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username stephankmo@gmail.com from IP address ::1
+ 2017-03-08 10:45:55,749 [P4512/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: stephankmo@gmail.com logged in from IP address ::1
+ 2017-03-08 10:46:50,290 [P4512/D2/T77] INFO  Umbraco.Web.Editors.AuthenticationController - User stephankmo@gmail.com from IP address ::1 has logged out
+ 2017-03-08 10:46:53,237 [P4512/D2/T65] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Tim from IP address ::1
+ 2017-03-08 10:46:53,237 [P4512/D2/T65] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tim logged in from IP address ::1
+ 2017-03-08 10:49:27,396 [P4512/D2/T59] INFO  Umbraco.Web.Editors.AuthenticationController - User Tim from IP address ::1 has logged out
+ 2017-03-08 10:49:31,434 [P4512/D2/T62] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Jane Wilfred from IP address ::1
+ 2017-03-08 10:49:31,434 [P4512/D2/T62] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: jane wilfred logged in from IP address ::1
+ 2017-03-08 10:49:39,337 [P4512/D2/T53] INFO  Umbraco.Web.Editors.AuthenticationController - User Jane Wilfred from IP address ::1 has logged out
+ 2017-03-08 10:49:40,600 [P4512/D2/T130] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username stephankmo@gmail.com from IP address ::1
+ 2017-03-08 10:49:40,600 [P4512/D2/T130] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: stephankmo@gmail.com logged in from IP address ::1
+ 2017-03-08 10:50:30,966 [P4512/D2/T81] INFO  Umbraco.Web.Editors.AuthenticationController - User stephankmo@gmail.com from IP address ::1 has logged out
+ 2017-03-08 10:52:24,209 [P4512/D2/T73] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username stephankmo@gmail.com from IP address ::1
+ 2017-03-08 10:52:24,209 [P4512/D2/T73] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: stephankmo@gmail.com logged in from IP address ::1
+ 2017-03-08 10:53:15,871 [P4512/D2/T130] INFO  Umbraco.Web.Editors.AuthenticationController - User stephankmo@gmail.com from IP address ::1 has logged out
+ 2017-03-08 10:53:19,013 [P4512/D2/T104] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Jane from IP address ::1
+ 2017-03-08 10:53:19,013 [P4512/D2/T104] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: jane logged in from IP address ::1
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-08 10:57:46,993 [P4512/D2/T143] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-08 10:57:46,993 [P4512/D2/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-08 10:57:46,993 [P4512/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-08 10:57:46,993 [P4512/D2/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-08 10:57:46,993 [P4512/D2/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-08 10:57:46,993 [P4512/D2/T54] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-08 10:57:55,046 [P4512/D3/T94] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.9 application starting on DESKTOP-C826T1M
+ 2017-03-08 10:57:55,062 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-08 10:57:55,062 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2017-03-08 10:57:55,093 [P4512/D3/T94] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-08 10:57:55,093 [P4512/D3/T94] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-08 10:57:55,109 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-08 10:57:55,312 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 202ms)
+ 2017-03-08 10:57:55,312 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-08 10:57:55,327 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+ 2017-03-08 10:57:55,327 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-08 10:57:55,327 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 7ms)
+ 2017-03-08 10:57:55,343 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-08 10:57:55,343 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-03-08 10:57:55,343 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-08 10:57:55,359 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
+ 2017-03-08 10:57:55,374 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-08 10:57:55,390 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 7ms)
+ 2017-03-08 10:57:55,390 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-08 10:57:55,390 [P4512/D3/T94] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 3ms)
+ 2017-03-08 10:57:55,984 [P4512/D3/T94] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-08 10:57:56,109 [P4512/D3/T94] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-08 10:57:56,124 [P4512/D3/T94] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-08 10:57:56,171 [P4512/D3/T94] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-08 10:57:56,171 [P4512/D3/T94] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1182ms)
+ 2017-03-08 10:57:56,265 [P4512/D3/T53] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:49749/umbraco (UmbracoModule request)
+ 2017-03-08 10:58:17,082 [P4512/D2/T53] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\steve\AppData\Local\Temp\Temporary ASP.NET Files\vs\b41654fb\6a3b2eda\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-03-08 11:12:53,269 [P4512/D3/T51] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: Jane, IP Address: ::1
+ 2017-03-08 11:18:16,815 [P4512/D3/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-08 11:18:16,815 [P4512/D3/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 4ms)
+ 2017-03-08 11:18:17,036 [P4512/D3/T43] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username stephankmo@gmail.com from IP address ::1
+ 2017-03-08 11:18:17,036 [P4512/D3/T43] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: stephankmo@gmail.com logged in from IP address ::1
+ 2017-03-08 11:18:17,099 [P4512/D3/T43] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for user "Jane", but the current user is "stephankmo@gmail.com".
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   at System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   at Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2017-03-08 11:18:17,343 [P4512/D3/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-03-08 11:18:17,356 [P4512/D3/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 13ms)
+ 2017-03-08 11:18:17,433 [P4512/D3/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-08 11:18:17,443 [P4512/D3/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 10ms)
+ 2017-03-08 11:18:17,445 [P4512/D3/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-08 11:18:17,453 [P4512/D3/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 7ms)
+ 2017-03-08 11:18:17,590 [P4512/D3/T26] INFO  umbraco.content - Load Xml from file...
+ 2017-03-08 11:18:17,591 [P4512/D3/T26] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-08 11:18:21,854 [P4512/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-08 11:18:21,862 [P4512/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 8ms)
+ 2017-03-08 11:18:24,061 [P4512/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-03-08 11:18:24,065 [P4512/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 3ms)
+ 2017-03-08 11:18:40,100 [P4512/D3/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-08 11:18:40,100 [P4512/D3/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-08 11:18:40,155 [P4512/D3/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-03-08 11:18:40,162 [P4512/D3/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 6ms)
+ 2017-03-08 11:19:16,124 [P4512/D3/T68] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-07 11:19:16
+ 2017-03-08 11:37:56,006 [P4512/D3/T176] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: stephankmo@gmail.com, IP Address: ::1
+ 2017-03-08 11:44:53,803 [P4512/D3/T257] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username stephankmo@gmail.com from IP address ::1
+ 2017-03-08 11:44:53,803 [P4512/D3/T257] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: stephankmo@gmail.com logged in from IP address ::1
+ 2017-03-08 11:45:27,405 [P4512/D3/T273] INFO  Umbraco.Web.Editors.AuthenticationController - User stephankmo@gmail.com from IP address ::1 has logged out
+ 2017-03-08 11:45:30,617 [P4512/D3/T268] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Tim from IP address ::1
+ 2017-03-08 11:45:30,617 [P4512/D3/T268] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tim logged in from IP address ::1
+ 2017-03-08 11:45:42,316 [P4512/D3/T261] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-03-08 11:45:42,316 [P4512/D3/T261] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-03-08 11:45:59,593 [P4512/D3/T275] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-03-08 11:45:59,624 [P4512/D3/T275] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 31ms)
+ 2017-03-08 11:47:21,564 [P4512/D3/T274] INFO  Umbraco.Web.Editors.AuthenticationController - User Tim from IP address ::1 has logged out
+ 2017-03-08 11:47:23,501 [P4512/D3/T272] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username stephankmo@gmail.com from IP address ::1
+ 2017-03-08 11:47:23,501 [P4512/D3/T272] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: stephankmo@gmail.com logged in from IP address ::1
+ 2017-03-08 11:47:43,584 [P4512/D3/T232] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username stephankmo@gmail.com from IP address ::1
+ 2017-03-08 11:47:43,584 [P4512/D3/T232] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: stephankmo@gmail.com logged in from IP address ::1
+ 2017-03-08 11:47:45,058 [P4512/D3/T242] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username stephankmo@gmail.com from IP address ::1
+ 2017-03-08 11:47:45,058 [P4512/D3/T242] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: stephankmo@gmail.com logged in from IP address ::1
+ 2017-03-08 11:47:45,673 [P4512/D3/T274] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username stephankmo@gmail.com from IP address ::1
+ 2017-03-08 11:47:45,673 [P4512/D3/T274] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: stephankmo@gmail.com logged in from IP address ::1
+ 2017-03-08 11:49:51,111 [P4512/D3/T260] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-03-08 11:49:51,120 [P4512/D3/T260] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 9ms)
+ 2017-03-08 11:49:51,330 [P4512/D3/T230] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 11:49:51,330 [P4512/D3/T260] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:49:51,337 [P4512/D3/T260] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 11:49:51,341 [P4512/D3/T230] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:49:51,343 [P4512/D3/T260] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:49:51,347 [P4512/D3/T230] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:49:51,348 [P4512/D3/T260] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:49:51,354 [P4512/D3/T230] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:50:56,774 [P4512/D3/T207] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2017-03-08 11:53:55,593 [P4512/D3/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:53:55,594 [P4512/D3/T189] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 11:53:55,602 [P4512/D3/T189] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:53:55,602 [P4512/D3/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:53:55,638 [P4512/D3/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:53:55,638 [P4512/D3/T189] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:53:55,644 [P4512/D3/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 11:53:55,644 [P4512/D3/T189] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:55:59,786 [P4512/D3/T198] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3115
+ 2017-03-08 11:55:59,806 [P4512/D3/T198] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3115
+ 2017-03-08 11:55:59,925 [P4512/D3/T198] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3115
+ 2017-03-08 11:57:43,646 [P4512/D3/T229] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3116
+ 2017-03-08 11:57:43,661 [P4512/D3/T264] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3116
+ 2017-03-08 11:57:43,768 [P4512/D3/T251] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3116
+ 2017-03-08 11:58:14,830 [P4512/D3/T229] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3116
+ 2017-03-08 11:58:23,564 [P4512/D3/T240] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3115
+ 2017-03-08 11:59:07,459 [P4512/D3/T237] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3117
+ 2017-03-08 11:59:07,469 [P4512/D3/T213] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3117
+ 2017-03-08 11:59:07,571 [P4512/D3/T242] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3117
+ 2017-03-08 11:59:28,154 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2017-03-08 11:59:28,163 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:28,168 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:28,169 [P4512/D3/T259] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 11:59:28,174 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 11:59:28,174 [P4512/D3/T259] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:28,179 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:28,179 [P4512/D3/T259] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:28,185 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:29,239 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:29,239 [P4512/D3/T242] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 11:59:29,240 [P4512/D3/T260] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 11:59:29,248 [P4512/D3/T260] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:29,248 [P4512/D3/T234] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:29,248 [P4512/D3/T237] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:29,248 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:29,250 [P4512/D3/T242] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:41,412 [P4512/D3/T257] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2017-03-08 11:59:41,419 [P4512/D3/T234] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 11:59:41,419 [P4512/D3/T237] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 11:59:41,420 [P4512/D3/T242] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:41,428 [P4512/D3/T234] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:41,429 [P4512/D3/T262] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:41,429 [P4512/D3/T237] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:41,431 [P4512/D3/T242] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 11:59:41,436 [P4512/D3/T260] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 12:00:53,985 [P4512/D3/T260] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 12:00:53,987 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 12:00:53,990 [P4512/D3/T260] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-03-08 12:00:53,996 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 12:00:53,996 [P4512/D3/T260] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 12:00:54,001 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 12:00:54,001 [P4512/D3/T260] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 12:00:54,007 [P4512/D3/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-03-08 12:01:17,420 [P4512/D3/T233] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3115
+ 2017-03-08 12:01:27,401 [P4512/D3/T213] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3116
+ 2017-03-08 12:01:33,607 [P4512/D3/T239] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=3117
+ 2017-03-08 12:07:46,313 [P4512/D3/T212] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+Umbraco.Web.Mvc.ModelBindingException: Cannot bind source content type Umbraco.Web.PublishedContentModels.Homepage to model content type Umbraco.Web.PublishedContentModels.Login.
+   at Umbraco.Web.Mvc.RenderModelBinder.ThrowModelBindingException(Boolean sourceContent, Boolean modelContent, Type sourceType, Type modelType)
+   at Umbraco.Web.Mvc.RenderModelBinder.BindModel(Object source, Type modelType, CultureInfo culture)
+   at Umbraco.Web.Mvc.UmbracoViewPage`1.SetViewData(ViewDataDictionary viewData)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
